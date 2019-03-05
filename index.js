@@ -26,3 +26,9 @@ function appendKitten(Bailey) {
   return [...kittens, Bailey]
 }
 
+function prependKitten(Bailey) {
+  return [Bailey, ...kittens]
+}
+
+
+
