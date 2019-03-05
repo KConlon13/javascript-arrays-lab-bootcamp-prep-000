@@ -21,3 +21,9 @@ function destructivelyRemoveFirstKitten() {
   kittens.shift();
   return kittens;
 }
+
+function appendKitten(Bailey) {
+  kittens = kittens.push(Bailey);
+  return kittens;
+}
+
