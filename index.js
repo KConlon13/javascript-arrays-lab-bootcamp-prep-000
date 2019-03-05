@@ -1,6 +1,7 @@
 var kittens = ['Milo', 'Otis', 'Garfield'] //define your array here
 
 // Add your functions and code here
+
 function destructivelyAppendKitten (Bailey) {
   kittens.push(Bailey);
   return kittens;
@@ -8,5 +9,10 @@ function destructivelyAppendKitten (Bailey) {
 
 function destructivelyPrependKitten (Bailey) {
   kittens.unshift(Bailey);
+  return kittens;
+}
+
+function destructivelyRemoveLastKitten(kittens) {
+  kittens.pop();
   return kittens;
 }
