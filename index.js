@@ -6,7 +6,7 @@ function destructivelyAppendKitten (Bailey) {
   return kittens;
 }
 
-function destructivelyPrependKitten () {
-  
-  
+function destructivelyPrependKitten (Bailey) {
+  kittens.unshift(Bailey);
+  return kittens;
 }
