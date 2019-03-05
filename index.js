@@ -30,5 +30,8 @@ function prependKitten(Bailey) {
   return [Bailey, ...kittens]
 }
 
-function removeLastKitten
+function removeLastKitten() {
+  kittens = kittens.slice(3);
+  return kittens;
+}
 
