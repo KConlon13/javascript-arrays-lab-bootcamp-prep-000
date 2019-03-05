@@ -30,5 +30,5 @@ function prependKitten(Bailey) {
   return [Bailey, ...kittens]
 }
 
-
+function removeLastKitten
 
